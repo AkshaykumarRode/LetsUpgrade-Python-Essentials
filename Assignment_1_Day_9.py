@@ -12,7 +12,7 @@ class PrimesTestCase(unittest.TestCase):
                 else:
                     lst.append(i)
         print(lst)
-        self.assertEquals(lst,[2, 3, 5, 7])
+        self.assertEqual(lst,[2, 3, 5, 7])
 
 if __name__ == '__main__':
     unittest.main()
